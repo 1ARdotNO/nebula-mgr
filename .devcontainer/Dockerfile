@@ -9,4 +9,4 @@ RUN apt update
 RUN apt install wget nano ncdu locate -y
 
 RUN bash setup.sh
-USER 1AR
+USER user
